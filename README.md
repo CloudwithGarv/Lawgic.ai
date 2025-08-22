@@ -20,9 +20,9 @@ Some of the Lawgic amazing abilities are:
 | Name            | Role        | GitHub Username      |
 |-----------------|-------------|----------------------|
 | Garv Garg       | Team Leader | @CloudwithGarv       |
-| Kishan Sharma   | Developer   | @kishhannnn          |
-| Rajveer Arora   | Developer   | @Rajveer0725         |
-| Harsh Sharma    | Developer   | @Demonvesper         |
+| Kishan Sharma   | Backend Dev | @kishhannnn          |
+| Rajveer Arora   | UI/UX       | @Rajveer0725         |
+| Harsh Sharma    | Frontend Dev| @Demonvesper         |
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
