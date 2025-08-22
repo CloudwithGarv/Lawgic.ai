@@ -25,4 +25,6 @@ Some of the Lawgic amazing abilities are:
 | Harsh Sharma    | Developer   | @Demonvesper         |
 
 ## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## Acknowledgements
