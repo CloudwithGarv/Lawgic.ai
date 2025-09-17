@@ -12,9 +12,88 @@ Some of the Lawgic amazing abilities are:
 - Summarizing the case and translates it into simple language.
 - Allows user to use its insights to make basic judgements from case in respect to the user's queries.
 
+## System Architecture and Component Overview
+### WireFrame:
+- **Welcome Page**:
+  <img width="1024" height="1024" alt="wireframe 1" src="https://github.com/user-attachments/assets/e3ae5e96-e792-4090-9791-cdf629394212" />
+
+  - This is the landing page for Lawgic, designed to greet users and offer two distinct ways to interact: Chat Mode and Voice Mode. It features clear branding with the Lawgic logo, and provides quick access to login and signup actions. The main focus is on user-centric interaction, inviting users to choose their preferred method for engaging with the application.
+
+- **Upload Document Page**:
+  <img width="1024" height="1024" alt="wireframe 2" src="https://github.com/user-attachments/assets/35161f04-4fe7-447f-992d-0cdb02382576" />
+
+  - This wireframe illustrates the document upload flow. Users can easily upload legal documents such as rental agreements, loan contracts, or terms of service for analysis. The page supports recent file history, enabling users to quickly access recently uploaded documents. Visual cues like cloud upload icons and a clean layout simplify the experience.
+
+- **Analysis & Interaction Page**:
+  <img width="1024" height="1024" alt="wireframe 3" src="https://github.com/user-attachments/assets/558cdd2b-e46b-438b-91f6-bd7730cd636b" />
+
+   - The core interaction page presents the original legal document on one side and the AI-generated simplified summary on the other. Users can read both views and ask questions directly about the document, receiving clear, AI-powered explanations. The design also highlights the application's commitments to end-to-end encryption and compliance with Indian law.
+### Process Flow:
+![696c5fcd-773a-4ecc-983e-970d1d5eb463](https://github.com/user-attachments/assets/1feba29c-42ac-466d-a47b-7fba98eab049)
+
+- **Process Overview**:
+   - The flow starts when a user initiates an interaction with Lawgic, providing input by either uploading a legal document or pasting its text.
+   - The system receives and acknowledges the uploaded file or pasted text, preparing the document for AI processing.
+   - Lawgic's AI analyzes the document, generating a summary and extracting explanations of individual clauses, allowing the user to understand complex legal terms easily.
+   - The AI then presents these summaries and clause explanations to the user in an accessible format.
+
+- **User Query and Interaction**:
+   - The diagram highlights that after the initial summary and explanations, users may have further queries regarding the document's content.
+   - If users have questions, the AI provides deeper, more detailed explanations and answers their legal queries interactively.
+   - Once all questions are addressed or the user chooses to end, the interaction successfully concludes with clear answers and demystified legal language.
+
+- **Key Stages**:
+   - Upload/Paste Document: Start by uploading or pasting a legal document.
+   - AI Processing: The AI engine analyzes and interprets the document.
+   - Document Summary: A concise overview is generated for easy understanding.
+   - Clause Explanations: Detailed explanations of individual clauses are provided.
+   - User Query Handling: Users can ask questions for further clarification.
+   - Final Answers/End Interaction: AI responds to queries, and the session ends when the user is satisfied.
+### Architectural Diagram:
+![5b1fd7ca-0f6a-4a59-9d13-c0ddb51d3ee2](https://github.com/user-attachments/assets/76a1a5f6-8b65-48f3-8461-054a36ba7e17)
+
+- **User Interface**:
+   - The interface is available via web and mobile apps, supporting features like document upload, text paste, summary viewing, and query submission.
+   - All user actions generate API requests handled by backend services for processing.
+
+- **Backend Services**:
+   - The document ingestion service manages file uploads and text extraction, using OCR technologies for non-text files.
+   - Uploaded documents are stored and passed to background workers for further processing, facilitating efficient and scalable handling of user requests.
+   - API Gateway and load balancer distribute incoming requests, enhancing system reliability and performance.
+   - A caching layer speeds up repetitive tasks and access to frequently used data.
+
+- **AI Processing Engine**:
+   - The AI engine utilizes a database for storing legal data and processing results.
+   - It applies NLP techniques to identify clauses and preprocess documents, followed by machine learning models that highlight key legal clauses.
+   - Legal jargon is explained using an extensive knowledge base, and contextual question answering is performed via a searchable vector database, offering users clear, precise responses.
+
+- **User Authorization & Authentication**:
+   - User identity, history, and processed insights are managed for personalized experiences and secure access, backed by a dedicated user database.
+
+- **External Integrations**:
+   - The architecture connects with legal knowledge bases, cloud AI APIs (such as GPT-4), and email/notification services, enabling robust analytics and communication.
+
 ## Demo/Screenshots
 ## Installation and Usage
 ## Tech Stack
+### UI/UX
+
+### Frontend
+- **Core Framework**
+  - React → Used for building the UI with reusable components and state management (`useState`, `useEffect`).
+- **Styling & Layout**
+  - Tailwind CSS → Utility-first CSS framework used for styling (`bg-[#0c1d1b]`, `flex`, `rounded-lg`, etc.).
+  - Custom colors → Background and text colors are matched with your logo branding.
+- **Animations**
+  - Framer Motion → For smooth animations (logo fade-in/scale, text slide-in, modal animations).
+- **Icons**
+  - Lucide-react → Icon library for back arrow, mic, message, user, shield, etc.
+- **Authentication (Mock)**
+  - localStorage → Used for saving a mock user object (email/name) to persist login across sessions.
+### Backend
+
+
+
 ## Contributors
 
 | Name            | Role        | GitHub Username      |
