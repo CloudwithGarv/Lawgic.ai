@@ -76,9 +76,12 @@ Some of the Lawgic amazing abilities are:
 ## Demo/Screenshots
 ## Installation and Usage
 ## Tech Stack
-### UI/UX
-
-### Frontend
+### UI/UX:
+- **Canva**
+   - Mock Idea Generation and Designing
+- **Figma**
+   - Design Implementation and Process Viewing
+### Frontend:
 - **Core Framework**
   - React → Used for building the UI with reusable components and state management (`useState`, `useEffect`).
 - **Styling & Layout**
