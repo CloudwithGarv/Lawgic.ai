@@ -1,3 +1,5 @@
+![Logo_Animation](https://github.com/user-attachments/assets/1cfb1872-b4ba-45b2-bc87-2e14820deb91)
+
 # Lawgic: Your Reliable Partner
 Welcome to the our project, we Team "BadallWAlle" are delighted to have you here!
 It's a solution for a problem statement provided in GenAI Hackathon which is using "Generative AI for Demystifying Legal Documents"
