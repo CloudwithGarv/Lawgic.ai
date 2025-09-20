@@ -83,20 +83,48 @@ Some of the Lawgic amazing abilities are:
    - Mock Idea Generation and Designing
 - **Figma**
    - Design Implementation and Process Viewing
-### Frontend:
-- **Core Framework**
-  - React → Used for building the UI with reusable components and state management (`useState`, `useEffect`).
-- **Styling & Layout**
-  - Tailwind CSS → Utility-first CSS framework used for styling (`bg-[#0c1d1b]`, `flex`, `rounded-lg`, etc.).
-  - Custom colors → Background and text colors are matched with your logo branding.
-- **Animations**
-  - Framer Motion → For smooth animations (logo fade-in/scale, text slide-in, modal animations).
-- **Icons**
-  - Lucide-react → Icon library for back arrow, mic, message, user, shield, etc.
-- **Authentication (Mock)**
-  - localStorage → Used for saving a mock user object (email/name) to persist login across sessions.
-### Backend
-
+### Google Cloud Services
+- **Document AI**:
+  -  For extracting text and structure from uploaded documents and scanned PDFs.
+- **Vertex AI**:
+  - For custom machine learning model training, inference, and document analysis.
+- **Speech-to-Text API**:
+  - For converting user voice queries to text.
+- **Text-to-Speech API**:
+  - For generating voice answers from AI responses.
+- **Cloud Storage**:
+  - For storing uploaded documents and training data.
+- **Cloud Run**:
+  - For hosting backend services and APIs.
+- **Firestore**:
+  - For storing metadata, processed insights, and user history.
+- **Cloud Functions**:
+  - For serverless processing tasks (e.g., triggering workflows).
+### Backend Technologies
+- **Python**:
+  - Primary backend language for cloud integration, ML training, and document processing.
+- **Flask / FastAPI**:
+  - Web frameworks for building RESTful APIs.
+- **PyPDF2 / pdfplumber**:
+  - For local PDF extraction and manipulation (where needed).
+- **Pandas, NumPy**:
+  - For data manipulation and preprocessing in ML pipelines.
+- **Transformers, Torch (PyTorch)**:
+  - For training custom NLP models with Vertex AI.
+### Frontend Technologies
+- **HTML5, CSS3, JavaScript**:
+  - Standard web stack for building UI.
+- **React.js or Vue.js**:
+  - Frameworks for dynamic, responsive client UI.
+- **Bootstrap or Material-UI**:
+  - For styling and layout.
+- **Web Speech API**:
+  - For browser-based voice input/output integration.
+### System Architecture & Data Flow
+- End-to-end encryption considered for security.
+- Modular microservices pattern using Google Cloud serverless and containerized solutions.
+- Multimodal user input support: PDF upload, speech, and text queries.
+- Integration with external knowledge bases for legal expertise.
 
 
 ## Contributors
