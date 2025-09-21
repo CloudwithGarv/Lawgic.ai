@@ -76,7 +76,8 @@ Some of the Lawgic amazing abilities are:
    - The architecture connects with legal knowledge bases, cloud AI APIs (such as GPT-4), and email/notification services, enabling robust analytics and communication.
 
 ## Demo/Screenshots
-## Installation and Usage
+## Usage
+- Link: **https://lawgicai.bytexl.live/**
 ## Tech Stack
 ### UI/UX:
 - **Canva**
