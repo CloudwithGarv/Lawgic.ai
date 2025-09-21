@@ -80,8 +80,8 @@ Some of the Lawgic amazing abilities are:
 <img width="1920" height="1080" alt="Screenshot From 2025-09-21 19-22-02" src="https://github.com/user-attachments/assets/a5dd98f9-894f-46bf-989c-345e9170f42f" />
 
 ### Login and Signup Page
-<img width="1920" height="1080" alt="Screenshot From 2025-09-21 19-21-50" src="https://github.com/user-attachments/assets/0b60193b-7788-4603-a251-546fbe238a0a" />
 <img width="1920" height="1080" alt="Screenshot From 2025-09-21 19-21-43" src="https://github.com/user-attachments/assets/18c999ea-52cf-461f-9354-8889d7095b20" />
+<img width="1920" height="1080" alt="Screenshot From 2025-09-21 19-21-50" src="https://github.com/user-attachments/assets/0b60193b-7788-4603-a251-546fbe238a0a" />
 
 ### Showcase Page
 <img width="1920" height="1080" alt="Screenshot From 2025-09-21 19-21-15" src="https://github.com/user-attachments/assets/3aeeda18-f8a6-4e84-9bfb-85fefc7fbd05" />
