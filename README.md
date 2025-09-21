@@ -140,3 +140,6 @@ Some of the Lawgic amazing abilities are:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
+- Vertex AI Integration: **Google Cloud Tech**
+- Dataset: **Legislative.gov.in**,**rbi.org.in**
+- Aplication Development: **Documentation on Google Cloud Skill Boost**
