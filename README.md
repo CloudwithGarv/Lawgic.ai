@@ -17,17 +17,17 @@ Some of the Lawgic amazing abilities are:
 ## System Architecture and Component Overview
 ### WireFrame:
 - **Welcome Page**:
-  <img width="1024" height="1024" alt="wireframe 1" src="https://github.com/user-attachments/assets/e3ae5e96-e792-4090-9791-cdf629394212" />
+  ![WhatsApp Image 2025-09-21 at 8 09 24 PM](https://github.com/user-attachments/assets/212dd400-19fe-47ec-9564-ce3d2893c944)
 
   - This is the landing page for Lawgic, designed to greet users and offer two distinct ways to interact: Chat Mode and Voice Mode. It features clear branding with the Lawgic logo, and provides quick access to login and signup actions. The main focus is on user-centric interaction, inviting users to choose their preferred method for engaging with the application.
 
 - **Upload Document Page**:
-  <img width="1024" height="1024" alt="wireframe 2" src="https://github.com/user-attachments/assets/35161f04-4fe7-447f-992d-0cdb02382576" />
+  ![WhatsApp Image 2025-09-21 at 8 10 18 PM](https://github.com/user-attachments/assets/522c9593-edb8-42f8-85c8-7dc087461bc4)
 
   - This wireframe illustrates the document upload flow. Users can easily upload legal documents such as rental agreements, loan contracts, or terms of service for analysis. The page supports recent file history, enabling users to quickly access recently uploaded documents. Visual cues like cloud upload icons and a clean layout simplify the experience.
 
 - **Analysis & Interaction Page**:
-  <img width="1024" height="1024" alt="wireframe 3" src="https://github.com/user-attachments/assets/558cdd2b-e46b-438b-91f6-bd7730cd636b" />
+![WhatsApp Image 2025-09-21 at 8 10 26 PM](https://github.com/user-attachments/assets/79b8ae55-ec2e-43d3-ae8b-81024bb8aa8a)
 
    - The core interaction page presents the original legal document on one side and the AI-generated simplified summary on the other. Users can read both views and ask questions directly about the document, receiving clear, AI-powered explanations. The design also highlights the application's commitments to end-to-end encryption and compliance with Indian law.
 ### Process Flow:
