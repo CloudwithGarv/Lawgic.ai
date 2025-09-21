@@ -132,7 +132,6 @@ Some of the Lawgic amazing abilities are:
 - **Web Speech API**:
   - For browser-based voice input/output integration.
 ### System Architecture & Data Flow
-- End-to-end encryption considered for security.
 - Modular microservices pattern using Google Cloud serverless and containerized solutions.
 - Multimodal user input support: PDF upload, speech, and text queries.
 - Integration with external knowledge bases for legal expertise.
